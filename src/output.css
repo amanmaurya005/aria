@@ -658,6 +658,10 @@ video {
   gap: 0.75rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .bg-\[\#113448\] {
   --tw-bg-opacity: 1;
   background-color: rgb(17 52 72 / var(--tw-bg-opacity, 1));
@@ -721,6 +725,22 @@ video {
 
 .pt-14 {
   padding-top: 3.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-center {
