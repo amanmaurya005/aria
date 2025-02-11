@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet" />
   <!-- <link rel="stylesheet" href="input.css" /> -->
+   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <div class="background w-full h-[50rem] bg-hero-image bg-cover bg-no-repeat-">
-  <header class="bg-[#113448] flex justify-between items-center px-7 py-4">
+  <div class="background w-full h-[50rem] bg-hero-image bg-cover bg-no-repeat relative">
+  <header class=" flex justify-between items-center px-7 py-4 sticky top-0 ">
     <div class="himg w-44 ">
       <img src="image/logo.svg" alt="">
     </div>
@@ -36,26 +37,414 @@
   <div class="disc flex justify-center items-center pt-60">
   <div class="discover text-center text-white w-full h-[500px]">
     <h1 class="text-5xl font-semibold">BUSINESS SOLUTIONS</h1>
-    <p class="py-2">Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
-    <button class="px-9 py-3 bg-slate-700 text-white rounded-xl	font-semibold" >Discover</button>
+    <p class="py-2 text-lg">Aria is a top consultancy company specializing in business growth using <br> online marketing and conversion optimization tactics</p>
+    <button class="px-9 py-3 bg-[#14bf98] text-white rounded-md	font-bold hover:bg-[#14bf9700] hover:text-[#14bf98] hover:border hover:border-2 hover:border-[#14bf98] transition" >Discover</button>
   </div>
 </div>
 
 </div>
 
-<div class="intro flex justify-around bg-slate-600 w-full py-14 text-white">
+<div class="intro flex justify-around text-black w-full py-14">
   <div class="inone w-1/3">
-    <p>INTRO</p>
-    <h1 class="text-4xl font-semibold">We Offer Some Of The Best Business Growth Services In Town</h1>
+    <p class=" font-medium text-xl">INTRO</p>
+    <h1 class="text-4xl font-semibold py-2">We Offer Some Of The Best Business Growth Services In Town</h1>
     <p class="py-3">Launching a new company or developing the market position of an existing one can be quite an overwhelming processs at times.</p>
    <p class="py-3"> "Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting and growing companies."</p>
-   <h3>Louise Donovan - CEO</h3>
+   <h3 class="text-xl	font-medium">Louise Donovan - CEO</h3>
   </div>
   <div class="intwo h-[400px] w-[600px]">
     <img class="h-full w-full" src="image/girl.jpg" alt="">
   </div>
 </div>
 
+<div class="iconmain flex justify-around p-14 h-96">
+<div class="ione w-1/4">
+  <div class="ifirst w-[130px] h-[100px]">
+    <img class="w-full h-full" src="image/one.jpg" alt="">
+  </div>
+  <h1 class="text-2xl font-semibold  py-2">Environment Analysis  </h1>
+  <p>The starting point of any success story is knowing your current position in the business environment  </p>
+</div>
+<div class="ione w-1/4">
+  <div class="ifirst w-[110px] h-[100px]">
+    <img class="w-full h-full" src="image/two.jpg" alt="">
+  </div>
+  <h1 class="text-2xl font-semibold py-2">
+    Development Planning  </h1>
+  <p>After completing the environmental analysis the next stage is to design and plan your development strategy </p>
+</div>
+<div class="ione w-1/4">
+  <div class="ifirst w-[110px] h-[100px]">
+    <img class="w-full h-full" src="image/three.jpg" alt="">
+  </div>
+  <h1 class="text-2xl font-semibold  py-2">Execution & Evaluation  </h1>
+  <p class="">In this phase you will focus on executing the actions plan and evaluating the results after each marketing campaign </p>
+</div>
+
+</div>
+
+<div class="servicehead text-center m-auto">
+  <h1 class="text-[#14bf98] font-medium">SERVICES</h1>
+  <p class="text-3xl font-medium">Choose The Service Package</p>
+  <p class="text-3xl font-medium">That Suits Your Needs</p>
+</div>
+
+<div class="service flex justify-around  pt-10 h-[650px]">
+<div class="servicemain w-1/4 text-center border border-gray border-solid	h-[535px]">
+  <div class="srpic w-full h-52">
+    <img class="w-full h-full" src="image/services-1.jpg" alt="">
+  </div>
+  <div class="srcont w-11/12 px-8 pt-5">
+    <h1 class="text-2xl font-bold">Off The Ground Off</h1>
+    <h1 class="text-2xl font-bold">The Ground</h1>
+    <p class="py-2  text-lg">Perfect for fresh ideas or young startups, this package will help get the business off the ground</p>
+    <p class="text-lg">Environment and competition</p>
+    <p class="text-lg"> Designing the marketing plan</p>
+    <h2 class="text-sm font-bold py-2">Starting at  <span class="text-[#14bf98]">$199</span></h2>
+    <button class="py-2 px-7 bg-[#14bf98] text-white rounded-md hover:bg-white hover:text-[#14bf98] hover:border hover:border-2 hover:border-[#14bf98] transition"><a href="">DETAILS</a></button>
+  </div>
+</div>
+<div class="servicemain w-1/4 text-center border border-gray border-solid	h-[500px]">
+  <div class="srpic w-full h-52">
+    <img class="w-full h-full" src="image/services-2.jpg" alt="">
+  </div>
+  <div class="srcont w-11/12 px-8 pt-5">
+    <h1 class="text-2xl font-bold">Accelerated Growth</h1>
+    <!-- <h1 class="text-2xl font-bold">The Ground</h1> -->
+    <p class="py-2  text-lg">Use this service pack to give your company the necessary impulse to become an industry leader</p>
+    <p class="text-lg">Business strategy planning</p>
+    <p class="text-lg"> Taking the planned actions</p>
+    <h2 class="text-sm font-bold py-2">Starting at  <span class="text-[#14bf98]">$299</span></h2>
+    <button class="py-2 px-7 bg-[#14bf98] text-white rounded-md hover:bg-white hover:text-[#14bf98] hover:border hover:border-2 hover:border-[#14bf98] transition"><a href="">DETAILS</a></button>
+  </div>
+</div>
+<div class="servicemain w-1/4 text-center border border-gray border-solid	h-[530px]">
+  <div class="srpic w-full h-52">
+    <img class="w-full h-full" src="image/services-3.jpg" alt="">
+  </div>
+  <div class="srcont w-11/12 px-8 pt-5">
+    <h1 class="text-2xl font-bold">Taking the planned actions</h1>
+    <!-- <h1 class="text-2xl font-bold">The Ground</h1> -->
+    <p class="py-2  text-lg">You already are a reference point in your industry now you need to learn about acquisitions    </p>
+    <p class="text-lg">Maintaining the leader status</p>
+    <p class="text-lg"> Acquisitions the right way</p>
+    <h2 class="text-sm font-bold py-2">Starting at  <span class="text-[#14bf98]">$299</span></h2>
+    <button class="py-2 px-7 bg-[#14bf98] text-white rounded-md hover:bg-white hover:text-[#14bf98] hover:border hover:border-2 hover:border-[#14bf98] transition"><a href="">DETAILS</a></button>
+  </div>
+</div>
+</div>
+
+<div class="nature flex w-full items-center">
+  <div class="npic w-1/2">
+    <img class="w-full" src="image/nature.jpg" alt="">
+  </div>
+  <div class="none w-1/2 px-10">
+    <h1 class="text-3xl font-bold">Accelerate Business Growth </h1>
+    <h1 class="text-3xl font-bold pb-3"> To Improve Revenue Numbers</h1>
+    <p class="text-2xl font-bold text-[#14bf98]"><span class="px-3  bg-[#14bf98] text-white rounded-full me-1 ">1</span><a href="">How can Aria Help Your Business</a></p>
+    <p class="text-lg w-2/3 py-3 font-normal">At Aria solutions, we’ve taken the consultancy concept one step further by offering a full service management organization with expertise.</p>
+    <p class="text-2xl font-bold pb-2"><span class="px-3  bg-[#14bf98] text-white rounded-full me-1 ">2</span><a href="">Great Strategic Buisness Planning</a></p>
+    <p class="text-2xl font-bold"><span class="px-3  bg-[#14bf98] text-white rounded-full me-1 ">3</span><a href="">Online Marketing Campaigns</a></p>
+  </div>
+</div>
+<div class="nature flex w-full items-center">
+
+  <div class="none w-1/2 px-10">
+    <div class="ntop flex ">
+    <h1 class="text-3xl font-bold text-[#14bf98]"> <span><i class="fa-solid fa-ellipsis-vertical"></i></span><span><i class="fa-solid fa-ellipsis-vertical"></i></span><span><i class="fa-solid fa-ellipsis-vertical"></i></span> Buisness </h1>
+    <h1 class="text-3xl font-bold text-gray-500 mx-3"> <span><i class="fa-solid fa-ellipsis-vertical"></i></span><span><i class="fa-solid fa-ellipsis-vertical"></i></span><span><i class="fa-solid fa-ellipsis-vertical"></i></span> Expertise </h1>
+    <h1 class="text-3xl font-bold text-gray-500"> <span><i class="fa-solid fa-ellipsis-vertical"></i></span><span><i class="fa-solid fa-ellipsis-vertical"></i></span><span><i class="fa-solid fa-ellipsis-vertical"></i></span> Quality </h1>
+  </div>
+    <p class="text-xl font-bold pt-3">Business Services For Companies</p>
+    <p class="text-lg w-4/5 py-3 font-normal">Aria provides the most innovative and customized business services in the industry. Our <a  class="text-[#14bf98] underline" href=""> Services</a> section shows how flexible we are for all types of budgets.</p>
+    <p class="text-lg font-semibold">Business Development 100%</p>
+    <div class="w-full py-2 my-2 h-3 bg-[#14bf98]"></div>
+    <p class="text-lg font-semibold">Opportunity Spotting 76%</p>
+    <div class="w-2/3 py-2 my-2 h-3 bg-[#14bf98]"></div>
+    <p class="text-lg font-semibold">Online Marketing 90%</p>
+    <div class="w-11/12 py-2 my-2  h-3 bg-[#14bf98]"></div>
+  </div>
+  <div class="npic w-1/2">
+    <img class="w-full" src="image/nature2.jpg" alt="">
+  </div>
+</div>
+
+<div class="testhead text-center pt-5">
+  <h1 class="text-2xl font-bold">Read Our Customer Testimonials</h1>
+  <p class="text-lg">Our clients are our partners and we can not imagine a better future for our <br> company without helping them reach their objectives</p>
+</div>
+<div class="testimonials py-7 flex justify-center items-center h-[400px]">
+ <div class="testone w-1/4 px-4">
+  <div class="testpic w-[100px] h-[100px] rounded-full m-auto">
+    <img class="w-full h-full rounded-full" src="image/men1.jpg" alt="">
+  </div>
+  <div class="testcont">
+    <p class="text-center text-lg py-3">My goals are using Aria's Services seemed hirh when i first set them but they've met them with no problems </p>
+    <h1 class="text-center text-base font-semibold">Ann Black - Consltant</h1>
+  </div>
+ </div>
+ <div class="testone w-1/4 px-4">
+  <div class="testpic w-[100px] h-[100px] rounded-full m-auto">
+    <img class="w-full h-full rounded-full" src="image/men2.jpg" alt="">
+  </div>
+  <div class="testcont">
+    <p class="text-center text-lg py-3">My goals are using Aria's Services seemed hirh when i first set them but they've met them with no problems </p>
+    <h1 class="text-center text-base font-semibold">Ann Black - Consltant</h1>
+  </div>
+ </div>
+ <div class="testone w-1/4 px-4">
+  <div class="testpic w-[100px] h-[100px] rounded-full m-auto">
+    <img class="w-full h-full rounded-full" src="image/women.jpg" alt="">
+  </div>
+  <div class="testcont">
+    <p class="text-center text-lg py-3">My goals are using Aria's Services seemed hirh when i first set them but they've met them with no problems </p>
+    <h1 class="text-center text-base font-semibold">Ann Black - Consltant</h1>
+  </div>
+ </div>
+</div>
+
+<div class="callme flex justify-around items-center h-[500px] bg-[#113448] text-white">
+  <div class="callone w-[40%] p-10">
+    <h1 class="text-[#14bf98] font-medium">CALL ME</h1>
+    <h1 class="text-3xl py-2">Have Us Contact You By Filling <br>And Submitting The Form</h1>
+    <p class="text-lg py-2 font-normal">You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.</p>
+    <p class=" font-normal"><li class="text-lg">It's very easy just fill in the form so we can call</li></p>
+    <p class=" font-normal"><li class="text-lg  py-1"> During the call we'll require some info about the company </li></p>
+    <p class=" font-normal"> <li class="text-lg">Don't hesitate to email us for any questions or inquiries </li></p>
+  </div>
+  <div class="calltwo w-[40%]">
+    <input class="py-3 rounded-md my-3 w-[85%]  ps-3 text-white bg-[#2a5d77]" type="text" name="Name" placeholder="Name" ><br>
+    <input class="py-3 rounded-md my-3 w-[85%]  ps-3 text-white bg-[#2a5d77]" type="number" name="Phone" placeholder="Phone" ><br>
+    <input class="py-3 rounded-md my-3 w-[85%]  ps-3 text-white bg-[#2a5d77]" type="email" name="Email" placeholder="Email" ><br>
+    <input class="py-3 rounded-md my-3 w-[85%]  ps-3 text-white bg-[#2a5d77]" type="text" name="Name" placeholder="Interested in.." >
+    <div class="checkbox pb-3 ">
+      <input type="checkbox" id="myCheckbox">
+   <label for="myCheckbox"> I agree with Aria's stated Privacy Policy and Terms & Conditions</label>
+     </div>
+<button class="w-[85%] bg-[#14bf98] py-3 rounded-md font-semibold hover:bg-white hover:text-[#14bf98] hover:border hover:bg-[#113448] hover:border-1 hover:border-[#14bf98] transition"><a href="">CALL ME</a></button>
+  </div>
+</div>
+
+<div class="projects h-[950px] flex justify-center items-center">
+  <div class="projectmid">
+  <div class="prohead text-center ">
+    <h1 class="text-[#14bf98] font-medium">Projects</h1>
+    <h1 class="text-3xl font-bold">Projects That We're Proud Of</h1>
+  </div>
+  <div class="select text-center my-6 ">
+    <button class="py-1  px-7 text-white font-semibold rounded-md bg-[#14bf98]"><a href="">Show All</a></button>
+    <button class="py-1  px-7 text-black font-semibold rounded-md bg-[#f1f4f7] hover:text-white hover:bg-[#14bf98]"><a href="">Design</a></button>
+    <button class="py-1  px-7 text-black font-semibold rounded-md bg-[#f1f4f7] hover:text-white hover:bg-[#14bf98]"><a href="">Development</a></button>
+    <button class="py-1  px-7 text-black font-semibold rounded-md bg-[#f1f4f7] hover:text-white hover:bg-[#14bf98]"><a href="">Marketting</a></button>
+    <button class="py-1  px-7 text-black font-semibold rounded-md bg-[#f1f4f7] hover:text-white hover:bg-[#14bf98]"><a href="">SEO</a></button>
+  </div>
+  
+  <div class="projimg flex justify-center ">
+    <div class="promain  ">
+    <div class="projpic w-[300px] h-[300px] relative overflow-hidden">
+      <img class=" w-full h-full transition-transform  ease-in-out hover:scale-110" src="image/ship.jpg" alt="">
+      <div class="absolute top-[50%] right-[50%]  text-2xl font-semibold text-white opacity-0 hover:opacity-100   "><h1 class=" "> Online Banking</h1></div>
+    </div>
+    
+  </div>
+    <div class="projpic w-[300px] h-[300px]  overflow-hidden">
+      <img class="w-full h-full transition-transform  ease-in-out hover:scale-110" src="image/beach.jpg" alt="">
+    </div>
+    <div class="projpic w-[300px] h-[300px]  overflow-hidden">
+      <img class="w-full h-full transition-transform  ease-in-out hover:scale-110" src="image/road.jpg" alt="">
+    </div>
+    <div class="projpic w-[300px] h-[300px] overflow-hidden">
+      <img class="w-full h-full  transition-transform  ease-in-out hover:scale-110" src="image/camera.jpg" alt="">
+    </div>
+  </div>
+  <div class="projimg flex justify-center">
+  <div class="projpic w-[300px] h-[300px] overflow-hidden ">
+    <img class="w-full h-full transition-transform  ease-in-out hover:scale-110" src="image/chair.jpg" alt="">
+  </div>
+  <div class="projpic w-[300px] h-[300px]  overflow-hidden">
+    <img class="w-full h-full transition-transform  ease-in-out hover:scale-110" src="image/spark.jpg" alt="">
+  </div>
+  <div class="projpic w-[300px] h-[300px] overflow-hidden ">
+    <img class="w-full h-full transition-transform  ease-in-out hover:scale-110" src="image/casual.jpg" alt="">
+  </div>
+  <div class="projpic w-[300px] h-[300px] overflow-hidden ">
+    <img class="w-full h-full transition-transform  ease-in-out hover:scale-110" src="image/zazoo.jpg" alt="">
+  </div>
+</div>
+</div>
+</div>
+
+<div class="team h-[580px]">
+  <div class="teamhead text-center">
+    <h1 class="text-[#484a46] text-3xl font-bold">Our Team Of Consultants</h1>
+    <p class="text-[#484a46] text-lg">We're only as strong and as knowledgeable as our team. So here are the men and <br>
+       women which help customers meet goals and grow companies</p>
+  </div>
+  <div class="teamimg flex justify-center mt-8">
+    <div class="teampic text-center w-[20%]">
+      <div class="teamimgpic   w-full] h-[70%] overflow-hidden">
+      <img class="w-full transition-transform  ease-in-out hover:scale-110" src="image/jhon.png" alt=""></div>
+      <h1 class="text-lg pt-2">John Whitelong</h1>
+      <p class="font-semibold">General Manager</p>
+      <span class="text-white"><a href=""><i class="p-2 bg-[#14bf98] rounded-full mx-1 fa-brands fa-facebook hover:text-[#14bf98] hover:bg-white "></i></a><a href=""><i class="p-2 bg-[#14bf98] rounded-full mx-1 fa-brands fa-twitter hover:text-[#14bf98] hover:bg-white "></i></a></span>
+    </div>
+    <div class="teampic text-center w-[20%] mx-3 overflow-hidden">
+      <div class="teamimgpic   w-full] h-[70%] overflow-hidden">
+      <img class="w-full transition-transform  ease-in-out hover:scale-110" src="image/veronique.png" alt=""></div>
+      <h1 class="text-lg pt-2">Veronique Smith</h1>
+      <p class="font-semibold">Business Developer</p>
+      <span class="text-white"><a href=""><i class="p-2 bg-[#14bf98] rounded-full mx-1 fa-brands fa-facebook hover:text-[#14bf98] hover:bg-white "></i></a><a href=""><i class="p-2 bg-[#14bf98] rounded-full mx-1 fa-brands fa-twitter hover:text-[#14bf98] hover:bg-white "></i></a></span>
+    </div>
+    <div class="teampic text-center w-[20%] mx-3 overflow-hidden">
+      <div class="teamimgpic   w-full] h-[70%] overflow-hidden">
+      <img class="w-full transition-transform  ease-in-out hover:scale-110" src="image/chris.png" alt=""></div>
+      <h1 class="text-lg pt-2">Chris Zimerman</h1>
+      <p class="font-semibold">Online Marketer      </p>
+      <span class="text-white"><a href=""><i class="p-2 bg-[#14bf98] rounded-full mx-1 fa-brands fa-facebook hover:text-[#14bf98] hover:bg-white "></i></a><a href=""><i class="p-2 bg-[#14bf98] rounded-full mx-1 fa-brands fa-twitter hover:text-[#14bf98] hover:bg-white "></i></a></span>
+    </div>
+    <div class="teampic text-center w-[20%] overflow-hidden">
+      <div class="teamimgpic   w-full] h-[70%] overflow-hidden">
+      <img class="w-full transition-transform  ease-in-out hover:scale-110" src="image/mary.png" alt=""></div>
+      <h1 class="text-lg pt-2">Mary Villalonga      </h1>
+      <p class="font-semibold">Community Manager</p>
+      <span class="text-white"><a href=""><i class="p-2 bg-[#14bf98] rounded-full mx-1 fa-brands fa-facebook hover:text-[#14bf98] hover:bg-white "></i></a><a href=""><i class="p-2 bg-[#14bf98] rounded-full mx-1 fa-brands fa-twitter hover:text-[#14bf98] hover:bg-white "></i></a></span>
+    </div>
+
+  </div>
+</div>
+
+<div class="intro flex justify-around w-full py-14 text-white items-center">
+
+  <div class="intwo h-[400px] w-[500px] ">
+    <img class="h-full w-full rounded-md" src="image/img.jpg" alt="">
+  </div>
+  <div class="inone w-1/3 text-black">
+    <p class=" font-medium text-lg text-[#14bf98]">ABOUT</p>
+    <h1 class="text-4xl font-semibold py-2">We're Passionate About Delivering Growth Services</h1>
+    <p class="py-3 text-lg">Our goal is to provide the right business growth services at the appropriate time so companies can benefit from the created momentum and thrive for a long period of time</p>
+   <p class="py-1 "> <li class="text-lg font-light">Everything we recommend has direct positive impact</li></p>
+   <p class=" "> <li class="text-lg font-light"> You will become an important partner of our company</li></p>
+   <div class="count flex justify-around">
+    <div class="cone flex items-center">
+      <h1><span class="text-5xl font-semibold text-[#14bf98] px-1">231</span> </h1>
+      <h1 class="text-sm text-[#484a46]"><span>Happy<br> Users</span></h1>
+    </div>
+    <div class="cone flex items-center">
+      <h1><span class="text-5xl font-semibold text-[#14bf98] px-1"> 121</span> </h1>
+      <h1 class="text-sm text-[#484a46]"><span>Issues<br> Solved</span></h1>
+    </div>
+    <div class="cone flex items-center">
+      <h1><span class="text-5xl font-semibold text-[#14bf98] px-1"> 159</span> </h1>
+      <h1 class="text-sm text-[#484a46]"><span>Good<br> Reviews</span></h1>
+    </div>
+   </div>
+  </div>
+ 
+</div>
+
+<div class="contactmain flex justify-around  my-8 p-12">
+  <div class="contact w-1/2 ">
+      <div class="bg-white p-10  ">
+          <!-- Header -->
+           <h1 class="text-[#14bf98]">CONTACT</h1>
+          <h2 class="text-2xl font-bold text-[#787976]">Get In Touch Using The Form</h2>
+          <p class="text-[#787976] mt-2">
+              You can stop by our office for a cup of coffee and just use the contact form below for any questions and inquiries.
+          </p>
+  
+          <!-- Contact Info -->
+          <div class="mt-4 space-y-2">
+              <div class="flex items-center gap-2 text-[#787976]">
+                  <span class="text-[#14bf98]"><i class="fa-solid fa-location-dot"></i></span>
+                  <span>22nd Innovative Street, San Francisco, CA 94043, US</span>
+              </div>
+              <div class="flex ">
+              <div class="flex items-center gap-2 text-[#14bf98] ">
+                  <span><i class="fa-solid fa-phone"></i></span>
+                  <a href="tel:+8172022126" class="text-[#787976] hover:underline">+81 720 22 126</a> 
+              </div>
+              <div class="flex items-center gap-2 text-[#14bf98]">
+                  <span class="ml-4"><i class="fa-solid fa-phone"></i></span>
+                  <a href="tel:+8172022126" class="text-[#787976] hover:underline">+81 720 22 126</a> 
+              </div>
+              <div class="flex items-center gap-2 text-[#14bf98]">
+               <span class="ml-4 text-[#14bf98]"><i class="fa-solid fa-envelope"></i></span>
+               <a href="mailto:office@domain.com" class="text-[#787976] hover:underline">office@domain.com</a>
+           </div>
+            </div>
+              
+          </div>
+          <h1 class="text-black font-semibold text-xl py-3">Follow Aria On Social Media</h1>
+          <!-- Social Media Icons -->
+          <div class="flex gap-3 mt-5">
+              <a href="#" class="w-10 h-10 bg-[#14bf98] text-white flex items-center justify-center rounded-lg text-lg hover:bg-white hover:text-[#14bf98] hover:border hover:border-[#14bf98]"><span><i class="fa-brands fa-facebook"></i></span></a>
+              <a href="#" class="w-10 h-10 bg-[#14bf98] text-white flex items-center justify-center rounded-lg text-lg hover:bg-white hover:text-[#14bf98] hover:border hover:border-[#14bf98]"><span><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="w-10 h-10 bg-[#14bf98] text-white flex items-center justify-center rounded-lg text-lg hover:bg-white hover:text-[#14bf98] hover:border hover:border-[#14bf98]"><span><i class="fa-brands fa-twitch"></i></span></a>
+              <a href="#" class="w-10 h-10 bg-[#14bf98] text-white flex items-center justify-center rounded-lg text-lg hover:bg-white hover:text-[#14bf98] hover:border hover:border-[#14bf98]"><span><i class="fa-brands fa-instagram"></i></span></a>
+              <a href="#" class="w-10 h-10 bg-[#14bf98] text-white flex items-center justify-center rounded-lg text-lg hover:bg-white hover:text-[#14bf98] hover:border hover:border-[#14bf98]"><span><i class="fa-brands fa-linkedin"></i></span></a>
+              <a href="#" class="w-10 h-10 bg-[#14bf98] text-white flex items-center justify-center rounded-lg text-lg hover:bg-white hover:text-[#14bf98] hover:border hover:border-[#14bf98] "><span><i class="fa-brands fa-staylinked"></i></span></a>
+             
+          </div>
+         </div>
+         </div>
+          <!-- Form -->
+           <div class="form ">
+          <form class="mt-6 space-y-4">
+              <input type="text" placeholder="Name" required 
+                  class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+              
+              <input type="email" placeholder="Email" required 
+                  class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+              
+              <textarea placeholder="Your message" required 
+                  class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 h-24"></textarea>
+  
+              <!-- Checkbox -->
+              <div class="flex items-center gap-2 text-gray-600">
+                  <input type="checkbox" id="agree" required class="w-4 h-4 text-green-500">
+                  <label for="agree" class="text-sm">
+                      I agree with Aria's stated 
+                      <a href="#" class="text-[#14bf98] hover:underline">Privacy Policy</a> and 
+                      <a href="#" class="text-[#14bf98] hover:underline">Terms & Conditions</a>
+                  </label>
+              </div>
+  
+              <!-- Submit Button -->
+              <button type="submit" 
+                  class="w-full bg-[#14bf98] text-white font-semibold py-3 rounded-md hover:bg-white hover:text-[#14bf98] hover:border hover:border-1 hover:border-[#14bf98] transition">
+                  SUBMIT MESSAGE
+              </button>
+          </form>
+         </div>
+      </div>
+
+<div class="footer bg-[#113448] text-white flex justify-around items-center h-[300px]">
+  <div class="footermain  flex justify-around">
+  <div class="footone w-[40%]  px-10">
+    <h1 class="text-xl font-semibold">Few Words About Aria</h1>
+    <p class="">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
+  </div>
+ 
+  <div class="foottwo w-[20%]">
+    <h1 class="text-xl font-semibold">Link</h1>
+    <p class="underline"><a href="">Term & Condition</a></p>
+    <p class="underline"><a href="">Privecy Policy</a></p>
+  </div>
+  <div class="foottwo w-[20%]">
+    <h1 class="text-xl font-semibold">Tool</h1>
+    <p class="underline"><a href="">Buisnessgrowth.com</a></p>
+    <p class="underline"><a href="">influencers.com</a></p>
+    <p class="underline"><a href="">optimizer.net</a></p>
+  </div>
+  <div class="foottwo w-[20%]">
+    <h1 class="text-xl font-semibold">Partners</h1>
+    <p class="underline"><a href="">unicorns.com</a></p>
+    <p class="underline"><a href="">staffmanager.com</a></p>
+    <p class="underline"><a href="">association.gov</a></p>
+  </div>
+
+</div>
+</div>
 
 </body>
 
